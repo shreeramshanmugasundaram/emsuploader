@@ -1,0 +1,16 @@
+.Table {
+  width: min(45rem, 90%);
+  margin: 5rem auto;
+}
+.TableCard {
+  display: grid;
+  grid-template-columns: auto 1fr 0.2fr;
+  align-items: center;
+  margin-top: 1rem;
+  gap: 1rem;
+}
+.TableCard img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}

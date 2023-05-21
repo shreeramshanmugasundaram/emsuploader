@@ -1,0 +1,57 @@
+input[type="text"],
+input[type="number"],
+select,
+.fileupload,
+.links > div {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  padding: 1rem;
+  border: 1px solid rgba(6, 103, 171, 0.18);
+  border-radius: 8px;
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+h1 {
+  margin: 1rem 0;
+  font-family: "Outfit";
+}
+form {
+  width: min(45rem, 90%);
+  margin: 2rem auto;
+}
+.fileupload {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-1,
+.btn-2 {
+  background-color: #0667ab;
+  color: #fff;
+  font-weight: 600;
+  font-size: 1.25rem;
+  padding: 0.4rem 0.8rem;
+  border: none;
+  box-shadow: 0px 16px 40px rgba(57, 57, 57, 0.08);
+  border-radius: 6px;
+}
+.btn-1 {
+  float: right;
+}
+.flex-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.links {
+  width: min(45rem, 90%);
+  margin: 5rem auto;
+}
+.links > div {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
