@@ -61,12 +61,12 @@ app.post("/9970116791/shots", uploadShots);
 app.post("/9970116791/shots/delete", deleteShots);
 app.get("/9970116791/shots", getShots);
 
-app.use(express.static(path.join(__dirname, "../client/build")));
-app.get("*", (req, res) => {
-  res.sendFile(path.join(__dirname, "../client/build/index.html"), (err) => {
-    res.status(500).send(err);
-  });
-});
+// app.use(express.static(path.join(__dirname, "../client/build")));
+// app.get("*", (req, res) => {
+//   res.sendFile(path.join(__dirname, "../client/build/index.html"), (err) => {
+//     res.status(500).send(err);
+//   });
+// });
 
 mongoose
   .connect(DB)
