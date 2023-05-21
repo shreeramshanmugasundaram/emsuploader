@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-// import "./App.css";
+import "./App.css";
 import FormMain from "./Pages/FormMain";
 import Nav from "./Components/Nav";
 import Shorts from "./Pages/Shorts";
